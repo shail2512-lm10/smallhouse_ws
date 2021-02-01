@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/devel
+
+Name: pr2_description
+Description: Description of pr2_description
+Version: 1.13.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: xacro

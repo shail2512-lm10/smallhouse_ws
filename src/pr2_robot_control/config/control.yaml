@@ -1,0 +1,66 @@
+# Publish all joint states .....................
+joint_state_controller:
+  type: joint_state_contoller/JointStateController
+  publish_rate: 50
+
+# Effort joint controllers .....................
+fl_l_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fl_caster_l_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+fl_r_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fl_caster_r_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+fr_l_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fr_caster_l_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+fr_r_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fr_caster_r_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+bl_l_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: bl_caster_l_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+bl_r_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: bl_caster_r_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+br_l_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: br_caster_l_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+br_r_wheel_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: br_caster_r_wheel_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+br_castor_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: br_castor_rotation_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+bl_castor_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: bl_castor_rotation_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+fr_castor_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fr_castor_rotation_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+
+fl_castor_effort_controller:
+  type: effort_controllers/JointEffortController
+  joint: fl_castor_rotation_joint
+  pid: {p: 100.0, i: 0.1, d: 10.0}
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!-- Load joint controller configurations from YAML file to parameter server -->
+  <rosparam file="$(find pr2_robot_control)/config/control.yaml" command="load"/>
+
+  <!-- load the controllers -->
+  <node name="controller_spawner"
+    pkg="controller_manager"
+    type="spawner" respawn="false"
+    output="screen"
+    args="joint_state_controller
+      fl_l_wheel_effort_controller
+      fl_r_wheel_effort_controller
+      fr_l_wheel_effort_controller
+      fr_r_wheel_effort_controller
+      bl_l_wheel_effort_controller
+      bl_r_wheel_effort_controller
+      br_l_wheel_effort_controller
+      br_r_wheel_effort_controller
+      br_castor_effort_controller
+      bl_castor_effort_controller
+      fr_castor_effort_controller
+      fl_castor_effort_controller"
+  />
+
+
+  <!-- convert joint states to TF transforms for rviz, etc -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+    <!--param name="robot_description" /-->
+  </node>
+
+</launch>

@@ -1,0 +1,2 @@
+aws_robomaker_small_house_world:pr2_description:pr2_robot_control:pr2_robot_gazebo:pr2_robot_navigation
+-DCATKIN_DEVEL_PREFIX=/home/shail/smallhouse_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shail/smallhouse_ws/install -G Unix Makefiles
