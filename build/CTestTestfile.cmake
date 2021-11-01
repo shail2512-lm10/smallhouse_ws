@@ -6,7 +6,7 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("aws_robomaker_small_house_world")
-subdirs("pr2_robot_control")
-subdirs("pr2_robot_gazebo")
-subdirs("pr2_robot_navigation")
-subdirs("pr2_description")
+subdirs("robot_description")
+subdirs("robot_gazebo")
+subdirs("robot_navigation")
+subdirs("robot_control")

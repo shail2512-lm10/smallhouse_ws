@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/devel
+
+Name: pr2_controller_interface
+Description: Description of pr2_controller_interface
+Version: 1.8.18
+Cflags: -I/home/shail/smallhouse_ws/src/pr2_controller_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp pr2_mechanism_model controller_interface

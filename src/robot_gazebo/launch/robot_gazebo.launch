@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <!--Load the small house world into gazebo -->
+  <include file="$(find aws_robomaker_small_house_world)/launch/small_house.launch">
+   <arg name="gui" value="true"/>
+  </include>
+
+  <!--Load PR2 robot into gazebo-->>
+  <include file="$(find robot_gazebo)/launch/spawn_robot.launch">
+   <arg name="x" value="3.5"/>
+   <arg name="y" value="1"/>
+  </include>
+
+  <!-- Include control launch file-->
+  <include file="$(find robot_control)/launch/robot_control.launch" />
+
+</launch>

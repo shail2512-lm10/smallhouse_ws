@@ -132,10 +132,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/shail/smallhouse_ws/build/gtest/cmake_install.cmake")
   include("/home/shail/smallhouse_ws/build/aws_robomaker_small_house_world/cmake_install.cmake")
-  include("/home/shail/smallhouse_ws/build/pr2_robot_control/cmake_install.cmake")
-  include("/home/shail/smallhouse_ws/build/pr2_robot_gazebo/cmake_install.cmake")
-  include("/home/shail/smallhouse_ws/build/pr2_robot_navigation/cmake_install.cmake")
-  include("/home/shail/smallhouse_ws/build/pr2_description/cmake_install.cmake")
+  include("/home/shail/smallhouse_ws/build/robot_description/cmake_install.cmake")
+  include("/home/shail/smallhouse_ws/build/robot_gazebo/cmake_install.cmake")
+  include("/home/shail/smallhouse_ws/build/robot_navigation/cmake_install.cmake")
+  include("/home/shail/smallhouse_ws/build/robot_control/cmake_install.cmake")
 
 endif()
 

@@ -1168,123 +1168,6 @@ sensor_msgs_generate_messages_py/fast:
 	$(MAKE) -f aws_robomaker_small_house_world/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make aws_robomaker_small_house_world/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
 
-#=============================================================================
-# Target rules for targets named _run_tests_pr2_description_gtest_test_urdf
-
-# Build rule for target.
-_run_tests_pr2_description_gtest_test_urdf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_pr2_description_gtest_test_urdf
-.PHONY : _run_tests_pr2_description_gtest_test_urdf
-
-# fast build rule for target.
-_run_tests_pr2_description_gtest_test_urdf/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/_run_tests_pr2_description_gtest_test_urdf.dir/build.make pr2_description/CMakeFiles/_run_tests_pr2_description_gtest_test_urdf.dir/build
-.PHONY : _run_tests_pr2_description_gtest_test_urdf/fast
-
-#=============================================================================
-# Target rules for targets named test_urdf
-
-# Build rule for target.
-test_urdf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test_urdf
-.PHONY : test_urdf
-
-# fast build rule for target.
-test_urdf/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/test_urdf.dir/build.make pr2_description/CMakeFiles/test_urdf.dir/build
-.PHONY : test_urdf/fast
-
-#=============================================================================
-# Target rules for targets named media_files
-
-# Build rule for target.
-media_files: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 media_files
-.PHONY : media_files
-
-# fast build rule for target.
-media_files/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/media_files.dir/build.make pr2_description/CMakeFiles/media_files.dir/build
-.PHONY : media_files/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_pr2_description_gtest
-
-# Build rule for target.
-_run_tests_pr2_description_gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_pr2_description_gtest
-.PHONY : _run_tests_pr2_description_gtest
-
-# fast build rule for target.
-_run_tests_pr2_description_gtest/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/_run_tests_pr2_description_gtest.dir/build.make pr2_description/CMakeFiles/_run_tests_pr2_description_gtest.dir/build
-.PHONY : _run_tests_pr2_description_gtest/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_pr2_description
-
-# Build rule for target.
-run_tests_pr2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_pr2_description
-.PHONY : run_tests_pr2_description
-
-# fast build rule for target.
-run_tests_pr2_description/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/run_tests_pr2_description.dir/build.make pr2_description/CMakeFiles/run_tests_pr2_description.dir/build
-.PHONY : run_tests_pr2_description/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_pr2_description_gtest_test_urdf
-
-# Build rule for target.
-run_tests_pr2_description_gtest_test_urdf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_pr2_description_gtest_test_urdf
-.PHONY : run_tests_pr2_description_gtest_test_urdf
-
-# fast build rule for target.
-run_tests_pr2_description_gtest_test_urdf/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/run_tests_pr2_description_gtest_test_urdf.dir/build.make pr2_description/CMakeFiles/run_tests_pr2_description_gtest_test_urdf.dir/build
-.PHONY : run_tests_pr2_description_gtest_test_urdf/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_pr2_description
-
-# Build rule for target.
-_run_tests_pr2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_pr2_description
-.PHONY : _run_tests_pr2_description
-
-# fast build rule for target.
-_run_tests_pr2_description/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/_run_tests_pr2_description.dir/build.make pr2_description/CMakeFiles/_run_tests_pr2_description.dir/build
-.PHONY : _run_tests_pr2_description/fast
-
-#=============================================================================
-# Target rules for targets named clean_test_results_pr2_description
-
-# Build rule for target.
-clean_test_results_pr2_description: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 clean_test_results_pr2_description
-.PHONY : clean_test_results_pr2_description
-
-# fast build rule for target.
-clean_test_results_pr2_description/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/clean_test_results_pr2_description.dir/build.make pr2_description/CMakeFiles/clean_test_results_pr2_description.dir/build
-.PHONY : clean_test_results_pr2_description/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_pr2_description_gtest
-
-# Build rule for target.
-run_tests_pr2_description_gtest: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_pr2_description_gtest
-.PHONY : run_tests_pr2_description_gtest
-
-# fast build rule for target.
-run_tests_pr2_description_gtest/fast:
-	$(MAKE) -f pr2_description/CMakeFiles/run_tests_pr2_description_gtest.dir/build.make pr2_description/CMakeFiles/run_tests_pr2_description_gtest.dir/build
-.PHONY : run_tests_pr2_description_gtest/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1375,15 +1258,6 @@ help:
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_py"
-	@echo "... _run_tests_pr2_description_gtest_test_urdf"
-	@echo "... test_urdf"
-	@echo "... media_files"
-	@echo "... _run_tests_pr2_description_gtest"
-	@echo "... run_tests_pr2_description"
-	@echo "... run_tests_pr2_description_gtest_test_urdf"
-	@echo "... _run_tests_pr2_description"
-	@echo "... clean_test_results_pr2_description"
-	@echo "... run_tests_pr2_description_gtest"
 .PHONY : help
 
 

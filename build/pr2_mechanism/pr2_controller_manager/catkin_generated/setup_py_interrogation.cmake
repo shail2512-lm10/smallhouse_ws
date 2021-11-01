@@ -1,0 +1,7 @@
+set(pr2_controller_manager_SETUP_PY_SETUP_MODULE "distutils.core")
+set(pr2_controller_manager_SETUP_PY_VERSION "1.8.18")
+set(pr2_controller_manager_SETUP_PY_SCRIPTS "")
+set(pr2_controller_manager_SETUP_PY_PACKAGES "pr2_controller_manager")
+set(pr2_controller_manager_SETUP_PY_PACKAGE_DIRS "src/pr2_controller_manager")
+set(pr2_controller_manager_SETUP_PY_MODULES "")
+set(pr2_controller_manager_SETUP_PY_MODULE_DIRS "")

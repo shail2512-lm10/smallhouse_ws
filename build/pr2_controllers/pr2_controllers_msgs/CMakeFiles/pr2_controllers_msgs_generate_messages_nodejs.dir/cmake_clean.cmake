@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryControllerState.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommand.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadAction.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionAction.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/PointHeadActionResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryAction.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandActionGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointControllerStateArray.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/Pr2GripperCommandAction.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionFeedback.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointControllerState.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/SingleJointPositionActionResult.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/msg/JointTrajectoryActionGoal.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryCalibrationState.js"
+  "/home/shail/smallhouse_ws/devel/share/gennodejs/ros/pr2_controllers_msgs/srv/QueryTrajectoryState.js"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/pr2_controllers_msgs_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

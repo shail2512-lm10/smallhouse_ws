@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/devel
+
+Name: pr2_mechanism_msgs
+Description: Description of pr2_mechanism_msgs
+Version: 1.8.2
+Cflags: -I/home/shail/smallhouse_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime
