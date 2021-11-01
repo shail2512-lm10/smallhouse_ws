@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/install
+
+Name: pr2_gripper_action
+Description: Description of pr2_gripper_action
+Version: 1.10.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

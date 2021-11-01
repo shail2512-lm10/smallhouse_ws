@@ -1,0 +1,43 @@
+<package format="3">
+  <name>pr2_head_action</name>
+  <version>1.10.18</version>
+  <description>The PR2 head action is a node that provides an action interface for
+  pointing the head of the PR2.  It passes trajectory goals to the
+  controller, and reports success when they have finished executing.</description>
+  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://ros.org/wiki/pr2_head_action</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Stuart Glaser</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>trajectory_msgs</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>pr2_controllers_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>actionlib</build_depend>
+  <build_depend condition="$ROS_DISTRO != noetic">orocos_kdl</build_depend>
+  <build_depend condition="$ROS_DISTRO == noetic">liborocos-kdl-dev</build_depend>
+  <build_depend>kdl_parser</build_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>trajectory_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>pr2_controllers_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>tf_conversions</exec_depend>
+  <exec_depend>actionlib</exec_depend>
+  <exec_depend condition="$ROS_DISTRO != noetic">orocos_kdl</exec_depend>
+  <exec_depend condition="$ROS_DISTRO == noetic">liborocos-kdl</exec_depend>
+  <exec_depend>kdl_parser</exec_depend>
+</package>

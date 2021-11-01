@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/install
+
+Name: pr2_controllers_msgs
+Description: Description of pr2_controllers_msgs
+Version: 1.10.18
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: actionlib_msgs trajectory_msgs geometry_msgs message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/install
+
+Name: single_joint_position_action
+Description: Description of single_joint_position_action
+Version: 1.10.18
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

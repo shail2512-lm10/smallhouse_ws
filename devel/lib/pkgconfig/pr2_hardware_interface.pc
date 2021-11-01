@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/devel
+
+Name: pr2_hardware_interface
+Description: Description of pr2_hardware_interface
+Version: 1.8.18
+Cflags: -I/home/shail/smallhouse_ws/src/pr2_hardware_interface/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs

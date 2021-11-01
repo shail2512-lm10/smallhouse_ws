@@ -1,0 +1,8 @@
+prefix=/home/shail/smallhouse_ws/devel
+
+Name: pr2_controller_manager
+Description: Description of pr2_controller_manager
+Version: 1.8.18
+Cflags: -I/home/shail/smallhouse_ws/src/pr2_controller_manager/include -I/usr/include
+Libs: -L${prefix}/lib -lpr2_controller_manager /usr/lib/x86_64-linux-gnu/libtinyxml.so
+Requires: pr2_hardware_interface pr2_mechanism_model pr2_mechanism_diagnostics pr2_description pr2_controller_interface pr2_mechanism_msgs diagnostic_msgs sensor_msgs realtime_tools roscpp pluginlib
